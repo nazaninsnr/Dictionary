@@ -1,17 +1,114 @@
+.App .container {
+  max-width: 500px;
+}
+
+.App-header {
+  color: #471c11;
+  font-family: "Quicksand", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin: 20px auto;
+}
+
 body {
-  background: #f9f8fe;
-}
-
-a {
-  color: #9670f4;
-}
-
-.App {
-  max-width: 960px;
+  background-image: url(workdesk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  color: #666463;
   margin: 0 auto;
 }
 
-.App-footer {
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Phonetics {
+  margin: 15px 0 3px 0;
+}
+
+.Phonetics i {
+  color: #5b727a;
+  font-size: 25px;
+  position: absolute;
+  margin: 0px 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetics i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.Meaning .Example {
+  color: #4e656d;
+  font-family: "Arapey", serif;
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+.Meaning .Example:first-letter {
+  text-transform: capitalize;
+}
+
+.Synonyms {
+  font-size: smaller;
+}
+
+.synonyms {
+  background-color: rgba(207, 123, 84, 0.3);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px 4px;
+  padding: 5px 10px;
+}
+
+.Photos {
+  display: block;
+  margin: 20px auto;
+  width: 45%;
+  min-width: 500px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px rgba(175, 175, 167, 0.5);
+  border: 3px solid #0000;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px 30px;
+}
+
+.Photos img {
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.Photos .HoverImage:hover img {
+  opacity: 0.7;
+}
+
+.Footer {
+  font-family: "Quicksand", sans-serif;
+  font-size: 13px;
   text-align: center;
-  margin: 30px 0;
+  margin-bottom: 50px;
+}
+
+.Footer a {
+  color: #cf7b54;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: #5b727a;
+  text-decoration: underline;
 }

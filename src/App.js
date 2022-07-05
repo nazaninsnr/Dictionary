@@ -5,11 +5,26 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <header className="App-header">Dictionary</header>
         <main>
-          <Dictionary defaultKeyword="divine" />
+          <Dictionary defaultKeyword="sunshine" />
         </main>
-        <footer className="App-footer">
-          <small>Coded by Nazanin Naghavi</small>
+        <footer className="Footer">
+          <a
+            href="https://github.com/nazaninsnr/Dictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open source code{" "}
+          </a>{" "}
+          by{" "}
+          <a
+            href="https://linkedin.com/in/nazaninnaghavi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Nazanin Naghavi
+          </a>
         </footer>
       </div>
     </div>
